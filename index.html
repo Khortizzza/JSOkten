@@ -2,9 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>master</title>
+    <title>Title</title>
 </head>
 <body>
+<p id="content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cupiditate deleniti
+    molestias mollitia pariatur porro saepe! Dolorem eaque earum eligendi, iste maxime molestias quam vitae.
+    Dolore hic in quae sed.
+</p>
 
+<div id="rules" class="fc bp">
+    Первое правило Бойцовского клуба: никому не рассказывать о Бойцовском клубе. Второе правило Бойцовского
+    клуба: никогда никому не рассказывать о Бойцовском клубе. Третье правило Бойцовского клуба: в схватке
+    участвуют только двое. Четвертое правило Бойцовского клуба: не более одного поединка за один раз
+</div>
+
+<ul>
+    <li class="fc_rules rule1">Первое правило Бойцовского клуба: никому не рассказывать о Бойцовском клубе.</li>
+    <li class="fc_rules rule2">Второе правило Бойцовского
+        клуба: никогда никому не рассказывать о Бойцовском клубе
+    </li>
+    <li class="fc_rules rule3">Третье правило Бойцовского клуба: в схватке
+        участвуют только двое.
+    </li>
+    <li class="fc_rules rule4">Четвертое правило Бойцовского клуба: не более одного поединка за один раз</li>
+</ul>
+<script>
+    /*отримує текст з параграфа з id "content"*/
+    //  let p = document.getElementById ('content');
+    // console.log(p);
+
+    /*отримує текст з блоку з id "rules""*/
+    // let rul = document.getElementById ('rules');
+    // console.log(rul);
+
+    /*замініть текст параграфа з id 'content' на будь-який інший*/
+    // let p = document.getElementById("content").innerHTML = "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...";
+
+    /*замініть текст параграфа з id 'rules' на будь-який інший*/
+    // let div = document.getElementById("rules").innerHTML = "Съешь ещё этих мягких французских булок, да выпей чаю"
+
+    /*змініть кожному елементу колір фону на червоний*/
+    // let bodyall = document.querySelectorAll('body > *')
+    //   console.log(bodyall);
+    //   for (const body of bodyall){
+    //       body.style.background = 'red';
+    // }
+
+    /*змініть кожному елементу колір тексту на синій*/
+    // let bodyall = document.querySelectorAll('body > *')
+    //   console.log(bodyall);
+    //   for (const body of bodyall){
+    //       body.style.color = 'blue';
+    // }
+
+    /*отримати весь список класів елемента з id=rules і вивести їх в console.log*/
+    // const idrules = document.querySelectorAll('[id="rules"]');
+    // console.log(idrules);
+
+    /*отримати всі елементи з класом fc_rules. визначити їм 2 події "клік", одна вивдоить текст елементу, інша довільний текст*/
+    // let fc_rulesList = document.getElementsByClassName('fc_rules');
+    // console.log(fc_rulesList);
+    // let fcrules = fc_rulesList[0];
+    // console.log(fcrules);
+    // fcrules.onclick = function () {
+    //       console.log(`${fcrules.innerHTML}`)
+    // };
+    // let fcrules1 = fc_rulesList[1];
+    // fcrules1.onclick = function  () {
+    //   alert('Первое правило Бойцовского клуба: ВСЕМ РАССКАЗЫВАТЬ О БОЙЦОВСКОИМ КЛУБЕ.');
+    // };
+
+    /*поміняти колір тексту у всіх елементів fc_rules на червоний*/
+    // let fcrules = document.getElementsByClassName('fc_rules')
+    //   for (const fc_rules of fcrules){
+    //     fc_rules.style.color = 'red';
+    // }
+
+
+</script>
 </body>
 </html>

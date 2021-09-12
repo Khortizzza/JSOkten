@@ -1,0 +1,16 @@
+
+.bname {
+    text-transform: uppercase;
+}
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrap   div {
+    width: 19%;
+    margin: 2px;
+    background: aliceblue;
+}
+.post-card {
+    display: flex;
+}
